@@ -1406,8 +1406,12 @@ textarea {
 }
 
 a {
-    color: #337ab7;
+    color: white;
     text-decoration: none
+}
+
+footer > a {
+    background-color: #000;
 }
 
 a:focus,
@@ -2011,6 +2015,9 @@ pre code {
 }
 
 .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-right: -15px;
     margin-left: -15px
 }

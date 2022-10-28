@@ -706,7 +706,10 @@ p {
 }
 
 .social {
-    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 500px;
     margin: auto auto auto auto;
 }
 
@@ -830,6 +833,11 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+}
+
+footer a {
+    background-color: #000000;
+    color: white;
 }
 
 @media (max-width: 1024px) {
